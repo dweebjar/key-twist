@@ -35,7 +35,7 @@ body {
     display: flex;
     flex: 1;
     flex-wrap: wrap;
-    min-height: 100vh;
+    min-height: 90vh;
     align-items: center;
     justify-content: center;
     align-content: center;
@@ -68,6 +68,13 @@ body {
     align-items: center;
     justify-content: center;
     align-content: center;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    position: relative;
+    z-index: 2;
 }
 
 #space {
